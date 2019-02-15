@@ -27,15 +27,23 @@ header {
   background-color: #e2e2e2;
 }
 
+h1 {
+  text-align: left;
+}
+
 ul {
   list-style-type: none;
+}
+
+li {
+  display: inline;
 }
 
 a {
   color: #0074d9;
   text-decoration: none;
-  padding: .4em .75em .3em;
   display: inline-block;
+  text-align: center;
 }
 
 a:hover {
