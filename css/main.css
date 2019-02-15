@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-  display: inline;
+  display: inline-block;
 }
 
 a {
@@ -47,6 +47,18 @@ a {
 }
 
 a:hover {
- color: #fff;
- background-color: #0074d9;
+  color: #fff;
+  background-color: #0074d9;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav {
+    text-align: right;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
 }
